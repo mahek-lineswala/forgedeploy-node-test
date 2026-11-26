@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
   res.json({
-    message: "ForgeDeploy Node.js runtime is working!",
+    message: "ForgeDeploy Node.js runtime v2 is working!",
     status: "success",
     port: PORT,
     timestamp: new Date().toISOString()
